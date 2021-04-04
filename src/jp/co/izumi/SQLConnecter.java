@@ -20,7 +20,7 @@ public class SQLConnecter {
 		try{
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/"+database_name+"?useSSL=false",
-					"root", "basekinohara");
+					"root", "hoge");
 			System.out.println(database_name+"に接続できました．");
 		}catch(SQLException e){
 			e.printStackTrace();
